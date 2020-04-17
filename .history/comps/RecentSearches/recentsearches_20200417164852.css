@@ -1,0 +1,38 @@
+.RecentsearchesContainer {
+    width: 414px;
+
+    
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.SearchTitle {
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0.22px;
+    margin-bottom: 10px;
+    color: #266B59;
+    
+    
+}
+
+.SearchTitle > span {
+    margin-left: 16px;
+}
+
+.SearchList {
+    border-top: 1px solid #D0D3D5;
+    padding: 10px 0;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.22px;
+    color: #000000;
+}
+
+.SearchList > span {
+    margin-left: 16px;
+}
