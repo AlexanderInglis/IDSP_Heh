@@ -1,0 +1,15 @@
+.iconbtn {
+    background: #d8d8dd;
+    height: 70px;
+    width: 250px;
+    margin: 0 16px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 300ms;
+    box-shadow: 20px 20px 59px #e4e8e2, -20px -20px 59px #ffffff;
+    border: 1px solid rgba(96, 128, 96, 0.151);
+    margin: 60px;
+}
