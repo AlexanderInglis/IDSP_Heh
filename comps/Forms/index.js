@@ -1,20 +1,22 @@
 import React from 'react';
 import './suform.css'
 
-const SuForm = ({formWidth, formHeight, top, left, text}) => <div
-style={{width:formWidth, height:formHeight, top:top, left:left}} className="SuForm">
+const SuForm = ({formWidth, formHeight, top, left, text}) => 
+<div>
     
-    
-        <input  className="SuForm" type="form" placeholder={text} />
-        
+    <div style={{top:top, left:left}} className="SuForm_position">
+        <input style={{width:formWidth, height:formHeight}} className="SuForm" type="form" placeholder={text} />
+    </div>
 
 </div>
 
 SuForm.defaultProps = {
     text:"This is default text!",
-    formWidth:"20%",
-    formHeight:"90px",
-    top:"50px",
+    
+    formWidth:"150px",
+    formHeight:"30px",
+    
+    top:"20px",
     left:"",
 }
 
