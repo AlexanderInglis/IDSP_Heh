@@ -1,0 +1,14 @@
+.SB_container {
+    position: relative;
+}
+
+.SearchBar {
+    border-radius: 50px;
+    border: #358E76 2px solid;
+    height: 45px;
+    width: 300px;
+
+    text-indent: 15px;
+    font-family: Montserrat;
+    font-size: 10pt;
+}
