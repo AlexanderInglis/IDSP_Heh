@@ -7,7 +7,7 @@ const SoftButton = ({ text, backgroundColor, boxShadow }) => <div>
     </div>
 
     <div class="btn02">
-        <p>Sign Up</p>
+        <p >Sign Up</p>
     </div>
 </div>
 
