@@ -12,9 +12,12 @@ const RecentSearches = () => <div>
         <div className="SearchList"><span>Vancouver autoshow</span><TiArrowForward className="ArrowFoward" color="D0D3D5" /></div>
         <div className="SearchList"><span></span></div>
     </div>
-    <div className="KeyboardContainer">
+    
+    {/* commenting out keyboard
+    
+    <div className="KeyboardContainer"> 
         <img src= {keyboardImg} />
-    </div>
+    </div>*/}
 </div>
 
 export default RecentSearches;
