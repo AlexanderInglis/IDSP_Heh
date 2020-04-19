@@ -4,6 +4,7 @@ import { Button } from '@storybook/react/demo';
 import SoftButton from '../comps/Buttons/LoginButtons';
 import HardButton from '../comps/Buttons/WhiteBgButtons';
 import IconButton from '../comps/Buttons/IconButtons'
+import MiniRounds from '../comps/Buttons/MiniRoundButtons';
 
 export default {
   title: 'Button',
@@ -22,6 +23,9 @@ export const CustomIconButton = () => (
   <IconButton />
 );
 
+export const  CustomMiniRoundButton = () => (
+  <MiniRounds />
+)
 
 
 export const Text = () => <Button onClick={action('clicked')}>Hello Button</Button>;
