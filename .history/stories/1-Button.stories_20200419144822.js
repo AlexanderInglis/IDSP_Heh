@@ -28,8 +28,8 @@ export const CustomMiniRoundButton = () => (
   <MiniRounds />
 )
 
-export const CustomListDiv = () => (
-  <ListDiv />
+export const Custom = () => (
+  <IconButton />
 )
 
 
