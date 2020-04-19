@@ -5,7 +5,7 @@ import SoftButton from '../comps/Buttons/LoginButtons';
 import HardButton from '../comps/Buttons/WhiteBgButtons';
 import IconButton from '../comps/Buttons/IconButtons'
 import MiniRounds from '../comps/Buttons/MiniRoundButtons';
-import ListDiv from '../comps/NewListDiv';
+import IconButton from '../comps/NewListDiv';
 
 export default {
   title: 'Button',
@@ -28,8 +28,8 @@ export const CustomMiniRoundButton = () => (
   <MiniRounds />
 )
 
-export const CustomListDiv = () => (
-  <ListDiv />
+export const CustomIconButton = () => (
+  <IconButton />
 )
 
 
