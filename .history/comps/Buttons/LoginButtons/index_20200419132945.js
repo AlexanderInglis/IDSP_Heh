@@ -2,12 +2,17 @@ import React from 'react';
 import '../../Buttons/buttons.css'
 
 const SoftButton = ({ text, backgroundColor, boxShadow }) => <div>
+    {/* <div class="btn-container">
+        <div class="btnPlus">
+            <i class="fas fa-plus"></i>
+        </div> */}
+
     <div class="btn" style={{ boxshadow: boxShadow, backgroundColor: backgroundColor, boxshadow: boxShadow }}>
         <p>{text}</p>
     </div>
 
     <div class="btn02">
-        <p>Sign Up</p>
+        <b >Sign Up</b>
     </div>
 </div>
 

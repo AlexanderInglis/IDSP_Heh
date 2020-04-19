@@ -1,9 +1,9 @@
 .iconbtn {
     background: #d8d8dd;
-    height: 40px;
-    width: 40px;
+    height: 70px;
+    width: 70px;
     margin: 0 16px;
-    border-radius: 13px;
+    border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,7 +16,7 @@
 }
 
 .icon{
-    width: 80%;
+    width: 60%;
 }
 
 .iconbtn i {
@@ -36,6 +36,7 @@
 }
 
 .iconbtn:active {
+    border: 3px solid white;
       box-shadow: inset 20px 20px 56px #176650, 
       inset -20px -20px 56px #186850;
       transition: all 0.1s;

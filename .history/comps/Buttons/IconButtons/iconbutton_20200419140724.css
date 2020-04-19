@@ -3,7 +3,7 @@
     height: 40px;
     width: 40px;
     margin: 0 16px;
-    border-radius: 13px;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,7 +16,7 @@
 }
 
 .icon{
-    width: 80%;
+    width: 60%;
 }
 
 .iconbtn i {
