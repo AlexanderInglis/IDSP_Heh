@@ -2,16 +2,13 @@ import React from 'react';
 import './imagetext.css'
 
 
-var StarIcon = require('./plus.svg');
+const ImageText = () => <div>
+<div className="ImagetextCategory">
+    <div className="Imagetext">All</div>
+    <div className="Imagetext">Recent</div>
+    <div className="Imagetext">Starred</div>
 
-const ImageText = ({ icon, text }) => <div>
-    <div class="iconbtn" style={{ }}>
-        <img class="icon" src={icon} /> Hey
-    </div>
 </div>
-
-ImageText.defaultProps = {
-    icon: StarIcon,
-}
+</div>
 
 export default ImageText;
