@@ -1,8 +1,7 @@
 .view {
     height: 100% ;
     width: 100% ;
-    background-color: rgba(0, 0, 0, 0.8);
-    opacity: 50%;
+    background-color: rgba(1, 1, 1, 0.6);
     margin-left: 20px;
     padding: 50px;
 }
@@ -11,6 +10,7 @@
     font-family: Montserrat;
     font-weight: 200;
     color: white;
+    line-height: 10px;
 }
 
 .image_placeholder {
@@ -23,4 +23,29 @@
     text-align: center;
     color: honeydew;
     justify-content: center;
+}
+
+.fav_icon {
+    position: relative;
+    left: 300px;
+    bottom: 50px;
+    cursor: pointer;
+    
+}
+
+.footer {
+    position: relative;
+    top: 20px;
+}
+
+.left_arw {
+    position: relative;
+    justify-content: left;
+    left: 1px;
+}
+
+.right_arw {
+    position: relative;
+    justify-content: right;
+    left: 290px;
 }
