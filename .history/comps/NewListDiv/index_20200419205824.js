@@ -49,21 +49,18 @@ ListDiv.defaultProps = {
 
 export default ListDiv
 
-var listState = true;
+var listState = false;
 
 function listToggle() {
     if (listState === false) {
         document.querySelector(".content").style.height = "0";
         document.querySelector(".divBox").style.height = "2.5%";
         document.querySelector(".divBox").style.overflow = "hidden";
-        document.querySelector(".content").style.display = "none";
-
         listState = true;
         console.log("hello");
     } else {
         document.querySelector(".content").style.height = "100%";
         document.querySelector(".divBox").style.height = "20%";
-        document.querySelector(".content").style.display = "block";
         listState = false;
     }
 }

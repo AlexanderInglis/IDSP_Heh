@@ -2,34 +2,27 @@
 .divBox{
 position: absolute;
 width: 350px;
-height: 20px;
+height: 196px;
 left: 0px;
 top: 0px;
 background: #FFFFFF;
 box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
 border-radius: 15px;
 padding: 1.5%;
-padding-bottom: 50px;
-padding-top: 5px;
+padding-bottom:7%;
+padding-top: 0.1%;
 margin-top: 3%;
-overflow: hidden;
 }
 
 .content{
-    display: none;
-    overflow: scroll;
-    padding-bottom: 60px;
+    overflow: hidden;
+    display: block;
 }
 
 .tester{
-  position: absolute;
-  top: 20px;
-  right: 05%;
-}
-
-.listTitle{
-  display: flex;
-  flex-direction: row;
+    position: static;
+    right: 70%;
+    top: 0%;
 }
 
 .container {
