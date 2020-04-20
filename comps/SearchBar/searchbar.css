@@ -11,6 +11,8 @@
     text-indent: 15px;
     font-family: Montserrat;
     font-size: 10pt;
+
+    box-shadow: grey 1px 1px 5px;
 }
 
 .SearchBar_Img {
