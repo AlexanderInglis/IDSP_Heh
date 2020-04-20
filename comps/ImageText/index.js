@@ -1,6 +1,7 @@
 import React from 'react';
 import './imagetext.css'
 
+
 const ImageText = () => <div>
 <div className="ImagetextCategory">
     <div className="Imagetext">All</div>
