@@ -1,0 +1,15 @@
+.settingsbtn{
+position: absolute;
+width: 414px;
+height: 98px;
+left: 0px;
+top: 283px;
+align-items: center;
+align-content: center;
+background: #FFFFFF;
+box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.settingsbtn h3{
+    align-self: center;
+}
