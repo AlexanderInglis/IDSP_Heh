@@ -1,11 +1,9 @@
 import React from 'react';
-import ImageText from '../comps/ImageText'
-
+import ImageText from '../comps/ImageText';
 
 export default {
-  title: 'ImageText',
-  component: ImageText,
+    title: "Imagetext Bar",
+    component: ImageText
 };
 
-export const HehimgTxt = () => <HehimgTxt/>;
-
+export const HehImageText = () => <ImageText />
