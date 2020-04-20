@@ -1,9 +1,9 @@
 import React from 'react';
-import ImageText from '../comps/Image Text'
+import ImageText from '../comps/ImageText'
 
 
 export default {
-  title: 'Image Text',
+  title: 'ImageText',
   component: ImageText,
 };
 

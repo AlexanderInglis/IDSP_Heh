@@ -1,10 +1,10 @@
 import React from 'react';
-import '../Image Text/imagetext.css'
+import './imagetext.css'
 
 
-var StarIcon = require('../../comps/Image Text/plus.svg');
+var StarIcon = require('./plus.svg');
 
-const ImageText = ({ icon, backgroundColor, }) => <div>
+const ImageText = ({ icon, text }) => <div>
     <div class="iconbtn" style={{ }}>
         <img class="icon" src={icon} /> Hey
     </div>
