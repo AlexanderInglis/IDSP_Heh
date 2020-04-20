@@ -1,12 +1,11 @@
 import React from 'react';
 import ImageText from '../comps/Image Text'
 
+
 export default {
-    title: "Image text header",
-    component: ImageText,
+  title: 'Image Text',
+  component: ImageText,
 };
 
-export const HehImageText = () => 
-<div>
-<HehImageText />
-</div>
+export const HehimgTxt = () => <HehimgTxt/>;
+

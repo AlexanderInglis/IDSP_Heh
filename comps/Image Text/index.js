@@ -5,14 +5,13 @@ import '../Image Text/imagetext.css'
 var StarIcon = require('../../comps/Image Text/plus.svg');
 
 const ImageText = ({ icon, backgroundColor, }) => <div>
-    <div class="iconbtn" style={{ backgroundColor: backgroundColor }}>
-        <img class="icon" src={icon} />
+    <div class="iconbtn" style={{ }}>
+        <img class="icon" src={icon} /> Hey
     </div>
 </div>
 
 ImageText.defaultProps = {
     icon: StarIcon,
-    backgroundColor: "#358E76",
 }
 
 export default ImageText;
