@@ -2,7 +2,7 @@ import React from 'react';
 import '../../Buttons/buttons.css'
 
 const SoftButton = ({ text, backgroundColor, boxShadow }) => <div>
-    <div class="btn" style={{ boxshadow: boxShadow, backgroundColor: backgroundColor, boxshadow: boxShadow}}>
+    <div class="btn" style={{ boxshadow: boxShadow, backgroundColor: backgroundColor, boxshadow: boxShadow, fontSize: fontSize}}>
         <p>{text}</p>
     </div>
 
@@ -15,6 +15,7 @@ SoftButton.defaultProps = {
     text: "Login",
     backgroundColor: "#145844",
     boxShadow: '#ffff',
+    fontSize: '18pt'
 }
 
 export default SoftButton;

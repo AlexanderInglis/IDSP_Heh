@@ -7,7 +7,7 @@
 
 .SearchTitle {
     font-weight: 300;
-    font-size: 20pt;
+    font-size: 20px;
     line-height: 34px;
     letter-spacing: 0.22px;
     margin-bottom: 10px;
@@ -25,10 +25,10 @@
     padding: 10px 0;
     font-style: normal;
     font-weight: 200;
-    font-size: 14pt;
+    font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.22px;
-    color: #3B3B3B;
+    color: #000000;
 }
 
 .SearchList > span {

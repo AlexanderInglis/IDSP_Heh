@@ -14,7 +14,7 @@ const SoftButton = ({ text, backgroundColor, boxShadow }) => <div>
 SoftButton.defaultProps = {
     text: "Login",
     backgroundColor: "#145844",
-    boxShadow: '#ffff',
+    boxShadow: '#ffff'
 }
 
 export default SoftButton;

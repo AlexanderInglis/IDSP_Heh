@@ -15,6 +15,7 @@ SoftButton.defaultProps = {
     text: "Login",
     backgroundColor: "#145844",
     boxShadow: '#ffff',
+    fontSize: "18pt"
 }
 
 export default SoftButton;
