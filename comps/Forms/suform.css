@@ -1,0 +1,26 @@
+
+.SuForm {
+    color:grey;
+    width: 500px;
+    height: 20px;
+    box-shadow: 1px 1px 5px;
+    border: #358E76 1px solid;
+    border-radius: 15px;
+    text-indent: 15px;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.SuForm input {
+    display: flex;
+    flex-direction: column;
+}
+
+.SuForm_position {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column-reverse;
+    
+}
+
