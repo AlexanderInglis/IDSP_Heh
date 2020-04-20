@@ -10,11 +10,8 @@ ul {
     display: flex; 
     margin: 0; 
     padding: 0; 
-    scroll-behavior: smooth;
     overflow: auto; 
-    overflow-x: scroll;
     max-width: 400px;
-    -webkit-user-drag: auto;
 }
 
 li { 

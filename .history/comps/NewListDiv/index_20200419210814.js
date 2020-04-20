@@ -56,7 +56,7 @@ function listToggle() {
         document.querySelector(".content").style.height = "0";
         document.querySelector(".divBox").style.height = "2.5%";
         document.querySelector(".divBox").style.overflow = "hidden";
-        document.querySelector(".content").style.display = "none";
+        document.querySelector(".content").style.display = "hidden";
 
         listState = true;
         console.log("hello");
