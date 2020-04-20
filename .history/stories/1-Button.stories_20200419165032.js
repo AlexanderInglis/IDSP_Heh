@@ -3,7 +3,7 @@ import { action } from '@storybook/addon-actions';
 import { Button } from '@storybook/react/demo';
 import SoftButton from '../comps/Buttons/LoginButtons';
 import HardButton from '../comps/Buttons/WhiteBgButtons';
-import IconButton from '../comps/Buttons/IconButtons';
+import IconButton from '../comps/Buttons/IconButtons'
 import MiniRounds from '../comps/Buttons/MiniRoundButtons';
 import ListDiv from '../comps/NewListDiv';
 import SettingsBtn from '../comps/Buttons/SettingsButtons';
@@ -33,7 +33,7 @@ export const CustomListDiv = () => (
   <ListDiv />
 )
 
-export const CustomSettingsButton = () => (
+export const CustomButton = () => (
   <SettingsBtn />
 );
 
