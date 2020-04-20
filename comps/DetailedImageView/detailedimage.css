@@ -1,0 +1,26 @@
+.view {
+    height: 100% ;
+    width: 100% ;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 50%;
+    margin-left: 20px;
+    padding: 50px;
+}
+
+.header_txt {
+    font-family: Montserrat;
+    font-weight: 200;
+    color: white;
+}
+
+.image_placeholder {
+    border: 1px solid white ;
+    width: 350px;
+    height: 600px;
+}
+
+.image_placeholder p {
+    text-align: center;
+    color: honeydew;
+    justify-content: center;
+}
