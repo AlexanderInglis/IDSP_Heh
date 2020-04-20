@@ -1,0 +1,38 @@
+.SB_container {
+    position: relative;
+}
+
+.SearchBar {
+    border-radius: 50px;
+    border: #358E76 2px solid;
+    height: 45px;
+    width: 300px;
+
+    text-indent: 15px;
+    font-family: Montserrat;
+    font-size: 10pt;
+
+    box-shadow: grey 1px 1px 5px;
+}
+
+.SearchBar_Img {
+    width: 35px;
+    height: 35px;
+    border: 2px #358E76 solid;
+    border-radius: 50px;
+    position: absolute;
+    top: 5px;
+    left: 260px;
+    justify-content: right;
+}
+
+#sb_form {
+    text-indent: 15px;
+    font-family: Montserrat;
+    font-size: 10pt;
+    border: white;
+    position: absolute;
+    top: 12px;
+    width: 240px;
+}
+
