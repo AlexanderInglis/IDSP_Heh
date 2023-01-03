@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/AlexanderInglis/IDSP_Heh#readme",
   "dependencies": {
-    "next": "^9.3.4",
+    "next": "^9.5.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-icons": "^3.9.0"
@@ -29,7 +29,7 @@
     "@storybook/addon-actions": "^5.3.18",
     "@storybook/addon-links": "^5.3.18",
     "@storybook/addons": "^5.3.18",
-    "@storybook/react": "^5.3.18",
-    "babel-loader": "^8.1.0"
+    "@storybook/react": "^6.5.15",
+    "babel-loader": "^8.3.0"
   }
 }
